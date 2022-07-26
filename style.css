@@ -24,7 +24,7 @@
     color: #ffffff;
     padding: 1em;
     font-size: 3em;  
-    height: 20%;
+    height: auto;
     border-radius: 0.25em;
     align-self: center;
 }
@@ -52,7 +52,7 @@
 }
 
 #heading {
-    font-size: 20em;
+    font-size: 20vh;
     color:#303131;
     text-shadow: 0em 0em 0.1em rgb(255, 255, 255);
 }
