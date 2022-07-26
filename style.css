@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+
+* {
+    font-family: 'Elsie', cursive;
+    box-sizing: border-box;
+    background: black;
+    border: none;
+    color:white;
+    padding: 0em;
+    margin: 0em;
+    font-size: 1em;
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    height: 100vh;
+}
+
+#reveal {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1em;
+    font-size: 3em;  
+    height: 20%;
+    border-radius: 0.25em;
+    align-self: center;
+}
+#reveal:hover {
+    background-color: #ffffff8d; 
+    color:#303131;
+    font-weight: bolder;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0em 0em 1em #9d9c9c;
+}
+            
+
+#container {
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 100vh;
+    display: none;
+}
+
+#main {
+    width: 100%;
+}
+
+#heading {
+    font-size: 20em;
+    color:#303131;
+    text-shadow: 0em 0em 0.1em rgb(255, 255, 255);
+}
+
+#sub {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.box {
+    width: 15%;
+    text-align: center;
+    background-color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    box-shadow: 0em 0em 0.5em rgb(255, 255, 255);
+}
+.box:hover {
+    cursor: default;
+}
+
+.titleW {
+    width: 100%;
+}
+
+.title {
+    font-weight: lighter;
+    background-color: #373939;
+    padding: 0.5em;
+}
+
+.boxDesc {
+    width: 100%;
+}
+                        
+.content {
+    font-size: 4em;
+    padding: 1em;
+}
+.content:hover {
+    background-color: white;
+    color: #373939;
+    font-weight: bolder;
+}
